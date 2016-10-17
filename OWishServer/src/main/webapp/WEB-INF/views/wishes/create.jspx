@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_rb_owish_domain_Wish" modelAttribute="wish" path="/wishes" render="${empty dependencies}" z="2VK2PyvnfPYajLYYv0VbOtvRX80=">
+        <field:textarea field="title" id="c_com_rb_owish_domain_Wish_title" required="true" z="6X2EwizrfCjLRn/UxKCs7z2hOLw="/>
+        <field:textarea field="description" id="c_com_rb_owish_domain_Wish_description" required="true" z="WJDMvMccPk3G4MYC7pt80UEDhmE="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_rb_owish_domain_Wish" render="${not empty dependencies}" z="HJMnWfAs1zgoGdkNeVweKkr0Cvs="/>
+</div>

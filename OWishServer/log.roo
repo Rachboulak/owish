@@ -6,3 +6,6 @@ hint
 entity jpa --class ~.domain.Wish --testAutomatically
 field string title --notNull --sizeMin 1 --sizeMax 255
 field string description --notNull --sizeMin 1 --sizeMax 255
+web mvc setup
+hint
+web mvc all --package ~.web
